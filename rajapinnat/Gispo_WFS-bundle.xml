@@ -1,17 +1,14 @@
 <!DOCTYPE connections>
 <qgsWFSConnections version="1.0">
     <wfs password="" name="Espoon kaupunki" referer="" url="https://kartat.espoo.fi/teklaogcweb/wfs.ashx" username=""/>
-    <wfs password="" name="GTK: kallioperä" referer="" url="http://gtkdata.gtk.fi/arcgis/services/Rajapinnat/GTK_Kalliopera_WFS/MapServer/WFSServer?" username=""/>
-    <wfs password="" name="GTK: kiviainesvarannot" referer="" url="http://gtkdata.gtk.fi/arcgis/services/Rajapinnat/GTK_Kalliopera_WFS/MapServer/WFSServer?" username=""/>
-    <wfs password="" name="GTK: maaperä" referer="" url="http://gtkdata.gtk.fi/arcgis/services/Rajapinnat/GTK_Maapera_WFS/MapServer/WFSServer?" username=""/>
+    <wfs password="" name="GTK: kallioperä" referer="" url="https://gtkdata.gtk.fi/arcgis/rest/services/Rajapinnat/GTK_Kalliopera_WFS/MapServer/WFSServer?" username=""/>
+    <wfs password="" name="GTK: kiviainesvarannot" referer="" url="https://gtkdata.gtk.fi/arcgis/rest/services/Rajapinnat/GTK_Kiviainesvarannot_WFS/MapServer/WFSServer?" username=""/>
+    <wfs password="" name="GTK: maaperä" referer="" url="https://gtkdata.gtk.fi/arcgis/rest/services/Rajapinnat/GTK_Maapera_WFS/MapServer/WFSServer?" username=""/>
     <wfs password="" name="Helsingin kaupunki" referer="" url="http://kartta.hel.fi/ws/geoserver/avoindata/wfs" username=""/>
     <wfs password="" name="Ilmatieteen laitos" referer="" url="https://opendata.fmi.fi/wfs?request=GetCapabilities" username=""/>
     <wfs password="" name="Jyväskylän yliopisto: LIPAS" referer="" url="http://lipas.cc.jyu.fi/geoserver/lipas/ows?" username=""/>
-    <wfs password="" name="OSM Suomi" referer="" url="http://avaa.tdata.fi/geoserver/osm_finland/wfs?" username=""/>
     <wfs password="" name="Oulun kaupunki" referer="" url="https://e-kartta.ouka.fi/TeklaOGCWeb/WFS.ashx" username=""/>
-    <wfs password="" name="Paituli" referer="" url="http://avaa.tdata.fi/geoserver/paituli/wfs?" username=""/>
-    <wfs password="" name="SYKE" referer="" url="https://geoserver.ymparisto.fi/geoserver/wfs?version=2.0.0" username=""/>
-    <wfs password="" name="Suomen metsäkeskus" referer="" url="https://rajapinnat.metsaan.fi/geoserver/Avoinmetsatieto/ows?" username=""/>
+    <wfs password="" name="Paituli" referer="" url="https://paituli.csc.fi/geoserver/paituli/wfs?" username=""/>
     <wfs password="" name="Tampereen kaupunki" referer="" url="https://geodata.tampere.fi/geoserver/ows?version=1.0.0" username=""/>
     <wfs password="" name="Tilastokeskus: PAAVO" referer="" url="http://geo.stat.fi/geoserver/postialue/wfs" username=""/>
     <wfs password="" name="Tilastokeskus: kuntapohjaiset tilastointialueet" referer="" url="http://geo.stat.fi/geoserver/tilastointialueet/wfs" username=""/>
@@ -22,5 +19,5 @@
     <wfs password="" name="Tilastokeskus: väestöruutuaineisto" referer="" url="http://geo.stat.fi/geoserver/vaestoruutu/wfs" username=""/>
     <wfs password="" name="Turun kaupunki" referer="" url="http://opaskartta.turku.fi/TeklaOGCWeb/WFS.ashx" username=""/>
     <wfs password="" name="Vantaan kaupunki" referer="" url="http://gis.vantaa.fi/geoserver/wfs?request=GetCapabilities" username=""/>
-    <wfs password="" name="Väylävirasto" referer="" url="https://julkinen.vayla.fi/inspirepalvelu/avoin/wfs" username=""/>
+    <wfs password="" name="Väylävirasto" referer="" url="https://avoinapi.vaylapilvi.fi/vaylatiedot/ows" username=""/>
 </qgsWFSConnections>
